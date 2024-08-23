@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon",
     "build": "tsc",
-    "lint": "eslint --ext .ts src --max-warnings 0"
+    "lint": "eslint src --max-warnings 0"
   },
   "author": "Predrag Kovacevic",
   "license": "ISC",
