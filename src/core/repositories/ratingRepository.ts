@@ -1,4 +1,4 @@
-import { Rating } from '@models';
+import { ratingModel } from '@models';
 
 import type { RatingCreate } from '@types';
 
@@ -9,5 +9,5 @@ export const createOne = async (data: { rate: number; content_id: string; user_i
     Content: { connect: { id: data.content_id } },
   };
 
-  await Rating.create({ data: formattedData });
+  await ratingModel.create({ data: formattedData });
 };

@@ -1,28 +1,28 @@
-import { Content } from '@models';
+import { contentModel } from '@models';
 import { AppError } from '@utils';
 
 import type { ContentCreate, ContentUpdate } from '@types';
 
 export const getMany = async () => {
-  const contents = await Content.findMany();
+  const contents = await contentModel.findMany();
   if (contents.length === 0) throw new AppError('No content found', 404);
   return contents;
 };
 
 export const getById = async (id: string) => {
-  const content = await Content.findUnique({ where: { id } });
+  const content = await contentModel.findUnique({ where: { id } });
   if (!content) throw new AppError('No content found', 404);
   return content;
 };
 
 export const createOne = async (data: ContentCreate) => {
-  await Content.create({ data });
+  await contentModel.create({ data });
 };
 
 export const updateOne = async (id: string, data: ContentUpdate) => {
-  await Content.update({ where: { id }, data });
+  await contentModel.update({ where: { id }, data });
 };
 
 export const deleteOne = async (id: string) => {
-  await Content.delete({ where: { id } });
+  await contentModel.delete({ where: { id } });
 };
