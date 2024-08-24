@@ -1,5 +1,6 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
+import router from './core/router';
 import { getErrorStatusCode, getErrorMessage } from './core/utils';
 
 const app = express();
@@ -7,6 +8,8 @@ const app = express();
 app.use(cors());
 
 app.use(express.json());
+
+router(app);
 
 app.all('*', (req: Request, res: Response) => {
   res.status(404).json({ message: `Can't find ${req.originalUrl} on this server!` });
