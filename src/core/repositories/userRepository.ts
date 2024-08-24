@@ -3,6 +3,12 @@ import { AppError } from '../utils';
 
 import type { UserCreate } from '../types';
 
+export const getOneById = async (id: string) => {
+  const user = await User.findUnique({ where: { id } });
+  if (!user) throw new AppError('No user found', 404);
+  return user;
+};
+
 export const getOneByMail = async (mail: string) => {
   const user = await User.findUnique({ where: { mail } });
   if (!user) throw new AppError('No user found', 404);

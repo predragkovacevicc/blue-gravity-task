@@ -1,7 +1,5 @@
 import { ratingRepository } from '../repositories';
 
-import type { RatingCreate } from '../types';
-
-export const createOne = async (data: RatingCreate) => {
-  await ratingRepository.createOne(data);
+export const createOne = async (data: { rate: number; content_id: string }, user_id: string) => {
+  await ratingRepository.createOne({ ...data, user_id });
 };
