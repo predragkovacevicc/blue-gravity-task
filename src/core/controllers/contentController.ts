@@ -1,5 +1,6 @@
-import { RequestHandler } from 'express';
 import { contentService } from '../services';
+
+import type { RequestHandler } from 'express';
 
 export const getMany: RequestHandler = async (req, res, next) => {
   try {

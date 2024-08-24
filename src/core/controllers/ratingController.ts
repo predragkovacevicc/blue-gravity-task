@@ -1,5 +1,6 @@
-import { RequestHandler } from 'express';
 import { ratingService } from '../services';
+
+import type { RequestHandler } from 'express';
 
 export const createOne: RequestHandler = async (req, res, next) => {
   try {

@@ -1,5 +1,6 @@
-import { RequestHandler } from 'express';
 import { authService } from '../services';
+
+import type { RequestHandler } from 'express';
 
 export const register: RequestHandler = async (req, res, next) => {
   try {
