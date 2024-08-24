@@ -15,6 +15,7 @@ model Content {
   thumbnail_url String   @db.VarChar(255)
   content_url   String   @db.VarChar(255)
   created_at    DateTime @default(now())
+  Rating        Rating[]
 }
 
 model User {
@@ -25,11 +26,13 @@ model User {
 }
 
 model Rating {
-  id      String @id @default(uuid())
-  rate    Int
-  user_id String
+  id         String @id @default(uuid())
+  rate       Int
+  user_id    String
+  content_id String
 
-  User User @relation(fields: [user_id], references: [id])
+  User    User    @relation(fields: [user_id], references: [id])
+  Content Content @relation(fields: [content_id], references: [id])
 }
 
 enum Category {
