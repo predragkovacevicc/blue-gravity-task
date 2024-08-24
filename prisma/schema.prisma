@@ -19,7 +19,7 @@ model Content {
 
 model User {
   id       String   @id @default(uuid())
-  username String   @db.VarChar(50)
+  mail     String   @unique @db.VarChar(62)
   password String   @db.VarChar(100)
   Rating   Rating[]
 }
