@@ -1,4 +1,4 @@
-import { contentService } from '../services';
+import { contentService } from '@services';
 
 import type { RequestHandler } from 'express';
 

@@ -1,6 +1,6 @@
-import { contentRepository } from '../repositories';
+import { contentRepository } from '@repositories';
 
-import type { ContentCreate, ContentUpdate } from '../types';
+import type { ContentCreate, ContentUpdate } from '@types';
 
 export const getMany = async () => {
   const contents = await contentRepository.getMany();

@@ -1,4 +1,4 @@
-import { authRouter, contentRouter, ratingRouter } from '../core/routes';
+import { authRouter, contentRouter, ratingRouter } from '@routes';
 
 import type { Express } from 'express';
 

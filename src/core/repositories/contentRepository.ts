@@ -1,7 +1,7 @@
-import { Content } from '../models';
-import { AppError } from '../utils';
+import { Content } from '@models';
+import { AppError } from '@utils';
 
-import type { ContentCreate, ContentUpdate } from '../types';
+import type { ContentCreate, ContentUpdate } from '@types';
 
 export const getMany = async () => {
   const contents = await Content.findMany();

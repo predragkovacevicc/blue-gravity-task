@@ -1,7 +1,7 @@
-import { userRepository } from '../repositories';
-import { checkPassword, hashPassword, createToken } from '../utils';
+import { userRepository } from '@repositories';
+import { checkPassword, hashPassword, createToken } from '@utils';
 
-import type { UserCreate, LogInData } from '../types';
+import type { UserCreate, LogInData } from '@types';
 
 export const register = async (data: UserCreate) => {
   const hashedPassword = await hashPassword(data.password);

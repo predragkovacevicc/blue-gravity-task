@@ -1,5 +1,5 @@
-import { userRepository } from '../repositories';
-import { AppError, stripBearerFromToken, decodeToken } from '../utils';
+import { userRepository } from '@repositories';
+import { AppError, stripBearerFromToken, decodeToken } from '@utils';
 
 import type { RequestHandler } from 'express';
 

@@ -9,7 +9,23 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "baseUrl": ""
+    "baseUrl": "./",
+    "paths": {
+      "@config": ["src/config"],
+      "@app": ["src/app"],
+      "@connection": ["src/connection"],
+      "@dotenv": ["src/dotenv"],
+      "@controllers": ["src/core/controllers"],
+      "@middlewares": ["src/core/middlewares"],
+      "@repositories": ["src/core/repositories"],
+      "@routes": ["src/core/routes"],
+      "@schemas": ["src/core/schemas"],
+      "@services": ["src/core/services"],
+      "@types": ["src/core/types"],
+      "@utils": ["src/core/utils"],
+      "@models": ["src/core/models"],
+      "@router": ["src/core/router"]
+    }
   },
   "include": ["src/**/*"],
   "files": ["src/declarations/express.d.ts"]

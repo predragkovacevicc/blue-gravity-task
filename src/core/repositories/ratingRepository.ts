@@ -1,6 +1,6 @@
-import { Rating } from '../models';
+import { Rating } from '@models';
 
-import type { RatingCreate } from '../types';
+import type { RatingCreate } from '@types';
 
 export const createOne = async (data: { rate: number; content_id: string; user_id: string }) => {
   const formattedData: RatingCreate = {

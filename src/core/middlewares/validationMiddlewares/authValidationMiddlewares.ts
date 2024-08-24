@@ -1,4 +1,4 @@
-import { registerSchema, logInSchema } from '../../schemas';
+import { registerSchema, logInSchema } from '@schemas';
 
 import type { RequestHandler } from 'express';
 

@@ -1,4 +1,4 @@
-import { createRatingSchema } from '../../schemas';
+import { createRatingSchema } from '@schemas';
 
 import type { RequestHandler } from 'express';
 

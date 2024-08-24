@@ -1,6 +1,6 @@
 import express from 'express';
-import { contentController } from '../controllers';
-import { createContentValidation, updateContentValidation } from '../middlewares';
+import { contentController } from '@controllers';
+import { createContentValidation, updateContentValidation } from '@middlewares';
 
 const router = express.Router();
 

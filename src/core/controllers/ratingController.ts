@@ -1,4 +1,4 @@
-import { ratingService } from '../services';
+import { ratingService } from '@services';
 
 import type { RequestHandler } from 'express';
 

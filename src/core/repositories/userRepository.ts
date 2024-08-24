@@ -1,7 +1,7 @@
-import { User } from '../models';
-import { AppError } from '../utils';
+import { User } from '@models';
+import { AppError } from '@utils';
 
-import type { UserCreate } from '../types';
+import type { UserCreate } from '@types';
 
 export const getOneById = async (id: string) => {
   const user = await User.findUnique({ where: { id } });

@@ -1,6 +1,7 @@
-import './dotenv';
-import { port } from './config';
-import app from './app';
+import 'module-alias/register';
+import '@dotenv';
+import { port } from '@config';
+import app from '@app';
 
 app.listen(port, () => {
   console.log(`SERVER RUNNING ON PORT ${port}`);

@@ -1,4 +1,4 @@
-import { createContentSchema, updateContentSchema } from '../../schemas';
+import { createContentSchema, updateContentSchema } from '@schemas';
 
 import type { RequestHandler } from 'express';
 

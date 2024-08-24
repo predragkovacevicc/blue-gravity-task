@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
-import router from './core/router';
-import { getErrorStatusCode, getErrorMessage } from './core/utils';
+import router from '@router';
+import { getErrorStatusCode, getErrorMessage } from '@utils';
 
 const app = express();
 

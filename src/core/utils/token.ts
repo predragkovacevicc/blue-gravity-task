@@ -1,8 +1,8 @@
 import jwt from 'jsonwebtoken';
 import AppError from './classes/AppError';
-import { tokenConfig } from '../../config';
+import { tokenConfig } from '@config';
 
-import type { TokenPayload } from '../types';
+import type { TokenPayload } from '@types';
 
 export const createToken = (id: string) => {
   if (tokenConfig.secret === undefined) throw new AppError('Server misconfigured. Missing JWT secret.', 500);

@@ -1,6 +1,6 @@
 import express from 'express';
-import { ratingController } from '../controllers';
-import { createRatingValidation, authenticated } from '../middlewares';
+import { ratingController } from '@controllers';
+import { createRatingValidation, authenticated } from '@middlewares';
 
 const router = express.Router();
 
