@@ -7,7 +7,8 @@
     "start:prod": "node build/server.js",
     "build": "tsc",
     "lint": "eslint src --max-warnings 0",
-    "migrate": "npx prisma migrate dev"
+    "migrate": "npx prisma migrate dev",
+    "importData": "ts-node -r tsconfig-paths/register src/scripts/importData.ts"
   },
   "author": "Predrag Kovacevic",
   "license": "ISC",

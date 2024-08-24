@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "description": "An open-world action-adventure game set in the expansive world of Hyrule.",
+    "category": "GAME",
+    "thumbnail_url": "https://example.com/zelda_thumbnail.jpg",
+    "content_url": "https://example.com/zelda.mp4"
+  },
+  {
+    "title": "Planet Earth II",
+    "description": "A nature documentary series exploring the diversity of life on our planet.",
+    "category": "VIDEO",
+    "thumbnail_url": "https://example.com/planet_earth_ii_thumbnail.jpg",
+    "content_url": "https://example.com/planet_earth_ii.mp4"
+  },
+  {
+    "title": "Starry Night",
+    "description": "Famous painting by Vincent van Gogh depicting a swirling night sky.",
+    "category": "ARTWORK",
+    "thumbnail_url": "https://example.com/starry_night_thumbnail.jpg",
+    "content_url": "https://example.com/starry_night.mp4"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "description": "Iconic song by Queen featuring a unique blend of rock and opera.",
+    "category": "MUSIC",
+    "thumbnail_url": "https://example.com/bohemian_rhapsody_thumbnail.jpg",
+    "content_url": "https://example.com/bohemian_rhapsody.mp3"
+  },
+  {
+    "title": "Inception",
+    "description": "A science fiction film directed by Christopher Nolan exploring the concept of dreams within dreams.",
+    "category": "VIDEO",
+    "thumbnail_url": "https://example.com/inception_thumbnail.jpg",
+    "content_url": "https://example.com/inception.mp4"
+  },
+  {
+    "title": "Super Mario Odyssey",
+    "description": "A 3D platformer game featuring Mario's adventures across various kingdoms.",
+    "category": "GAME",
+    "thumbnail_url": "https://example.com/mario_odyssey_thumbnail.jpg",
+    "content_url": "https://example.com/mario_odyssey.mp4"
+  },
+  {
+    "title": "The Mona Lisa",
+    "description": "Renowned portrait by Leonardo da Vinci known for its enigmatic expression.",
+    "category": "ARTWORK",
+    "thumbnail_url": "https://example.com/mona_lisa_thumbnail.jpg",
+    "content_url": "https://example.com/mona_lisa.mp4"
+  },
+  {
+    "title": "Shape of You",
+    "description": "Popular song by Ed Sheeran featuring catchy melodies and rhythmic beats.",
+    "category": "MUSIC",
+    "thumbnail_url": "https://example.com/shape_of_you_thumbnail.jpg",
+    "content_url": "https://example.com/shape_of_you.mp3"
+  },
+  {
+    "title": "Breaking Bad",
+    "description": "A crime drama television series about a chemistry teacher turned meth manufacturer.",
+    "category": "VIDEO",
+    "thumbnail_url": "https://example.com/breaking_bad_thumbnail.jpg",
+    "content_url": "https://example.com/breaking_bad.mp4"
+  },
+  {
+    "title": "Elden Ring",
+    "description": "An action role-playing game set in a fantasy world created by FromSoftware.",
+    "category": "GAME",
+    "thumbnail_url": "https://example.com/elden_ring_thumbnail.jpg",
+    "content_url": "https://example.com/elden_ring.mp4"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "description": "A comedy film by Wes Anderson about the adventures of a hotel concierge.",
+    "category": "VIDEO",
+    "thumbnail_url": "https://example.com/grand_budapest_hotel_thumbnail.jpg",
+    "content_url": "https://example.com/grand_budapest_hotel.mp4"
+  },
+  {
+    "title": "The Persistence of Memory",
+    "description": "Surreal painting by Salvador Dalí featuring melting clocks.",
+    "category": "ARTWORK",
+    "thumbnail_url": "https://example.com/persistence_of_memory_thumbnail.jpg",
+    "content_url": "https://example.com/persistence_of_memory.mp4"
+  },
+  {
+    "title": "Uptown Funk",
+    "description": "Hit song by Mark Ronson featuring Bruno Mars with an infectious groove.",
+    "category": "MUSIC",
+    "thumbnail_url": "https://example.com/uptown_funk_thumbnail.jpg",
+    "content_url": "https://example.com/uptown_funk.mp3"
+  },
+  {
+    "title": "Avatar",
+    "description": "A science fiction film directed by James Cameron set in the lush alien world of Pandora.",
+    "category": "VIDEO",
+    "thumbnail_url": "https://example.com/avatar_thumbnail.jpg",
+    "content_url": "https://example.com/avatar.mp4"
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "description": "An open-world action RPG featuring a post-apocalyptic world with robotic creatures.",
+    "category": "GAME",
+    "thumbnail_url": "https://example.com/horizon_zero_dawn_thumbnail.jpg",
+    "content_url": "https://example.com/horizon_zero_dawn.mp4"
+  },
+  {
+    "title": "The Starry Night",
+    "description": "A famous painting by Vincent van Gogh showcasing a night sky with swirling patterns.",
+    "category": "ARTWORK",
+    "thumbnail_url": "https://example.com/the_starry_night_thumbnail.jpg",
+    "content_url": "https://example.com/the_starry_night.mp4"
+  },
+  {
+    "title": "Rolling in the Deep",
+    "description": "Song by Adele known for its powerful vocals and emotional depth.",
+    "category": "MUSIC",
+    "thumbnail_url": "https://example.com/rolling_in_the_deep_thumbnail.jpg",
+    "content_url": "https://example.com/rolling_in_the_deep.mp3"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "description": "A post-apocalyptic action film with intense car chases and high-octane action.",
+    "category": "VIDEO",
+    "thumbnail_url": "https://example.com/mad_max_fury_road_thumbnail.jpg",
+    "content_url": "https://example.com/mad_max_fury_road.mp4"
+  },
+  {
+    "title": "The Witcher 3: Wild Hunt",
+    "description": "An expansive RPG with a rich narrative and complex character development.",
+    "category": "GAME",
+    "thumbnail_url": "https://example.com/witcher_3_thumbnail.jpg",
+    "content_url": "https://example.com/witcher_3.mp4"
+  },
+  {
+    "title": "The Great Wave off Kanagawa",
+    "description": "Iconic woodblock print by Katsushika Hokusai depicting a large wave.",
+    "category": "ARTWORK",
+    "thumbnail_url": "https://example.com/great_wave_thumbnail.jpg",
+    "content_url": "https://example.com/great_wave.mp4"
+  }
+]
