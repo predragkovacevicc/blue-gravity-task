@@ -4,7 +4,7 @@ import type { RequestHandler } from 'express';
 
 export const registerValidation: RequestHandler = async (req, res, next) => {
   try {
-    registerSchema.parse(req.body);
+    await registerSchema.parseAsync(req.body);
     next();
   } catch (err) {
     next(err);

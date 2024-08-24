@@ -15,6 +15,11 @@ export const getOneByMail = async (mail: string) => {
   return user;
 };
 
+export const checkByMail = async (mail: string) => {
+  const user = await User.findUnique({ where: { mail } });
+  return Boolean(user);
+};
+
 export const createOne = async (data: UserCreate) => {
   const user = await User.create({ data });
   return user;
