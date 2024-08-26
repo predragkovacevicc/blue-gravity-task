@@ -1,4 +1,3 @@
-import 'module-alias/register';
 import '@dotenv';
 import { port } from '@config';
 import app from '@app';
