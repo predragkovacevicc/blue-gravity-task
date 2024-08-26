@@ -8,6 +8,7 @@
   - [Features](#features)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Documentation](#documentation)
 
 ## Description
 
@@ -94,3 +95,7 @@ Follow these steps to set up and run the application locally:
    Once the application is up and running, you can access it by opening a web browser and navigating to:
 
    http://localhost:5000
+
+## Documentation
+
+Api Documentation: https://documenter.getpostman.com/view/22392194/2sAXjGasuF
