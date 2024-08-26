@@ -8,6 +8,7 @@
   - [Features](#features)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Scripts](#scripts)
   - [Documentation](#documentation)
 
 ## Description
@@ -95,6 +96,12 @@ Follow these steps to set up and run the application locally:
    Once the application is up and running, you can access it by opening a web browser and navigating to:
 
    http://localhost:5000
+
+## Scripts
+
+- **npm run lint**: Runs ESLint on the src directory to check for code quality and style issues.
+- **npm run migrate**: Applies database migrations using Prisma. It updates the database schema to match the current Prisma schema.
+- **npm run importData**: Imports data for testing purposes.
 
 ## Documentation
 
